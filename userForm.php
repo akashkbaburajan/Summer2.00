@@ -23,3 +23,4 @@ use yii\widgets\ActiveForm;
 <?= $form->field($model,'email'); ?>
 
 <?= Html::submitButton('Submit',['class'=>'btn btn-primary']); ?>
+<?php ActiveForm::end(); ?>
