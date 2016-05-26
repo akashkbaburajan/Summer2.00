@@ -13,9 +13,15 @@ class UserForm extends Model
     public function rules()
     {
     	return [
-    			[['name','email'],'required'],
+    			[['name','email','areaofinterest'],'required'],
     			['email','email']
     			];
+    }
+    public function attributeLabels()
+    {
+        return [
+            'areaofinterest' => 'Area of Interest',
+        ];
     }
 }
   
