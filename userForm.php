@@ -21,7 +21,7 @@ use yii\widgets\ActiveForm;
 <?php $form = ActiveForm::begin(); ?>
 <?= $form->field($model,'name'); ?>
 <?= $form->field($model,'email'); ?>
-<?= $form->field($model, 'area of interest')->textArea(['rows' => 6]) ?>
+<?= $form->field($model, 'areaofinterest')->textArea(['rows' => 6]) ?>
 
 <?= Html::submitButton('Submit',['class'=>'btn btn-primary']); ?>
 <?php ActiveForm::end(); ?>
