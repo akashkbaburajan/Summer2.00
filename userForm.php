@@ -1,3 +1,6 @@
+
+/*view file */
+
 <?php
 
 /* @var $this yii\web\View */
