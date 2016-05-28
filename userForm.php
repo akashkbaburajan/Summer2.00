@@ -15,7 +15,7 @@ use yii\widgets\ActiveForm;
 	color:GREY;
 }
 </style>
-<h1 class='font'> STUDENT REGISTERATION FORM </h1>
+<h1 class='font'> STUDENT REGISTRATION FORM </h1>
 <?php 
 	if(Yii::$app->session->hasFlash('success'))
 //	{
